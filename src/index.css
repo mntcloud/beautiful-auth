@@ -1,0 +1,32 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: unset;
+}
+
+:root {
+  font-family: Inter;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  font-family: Inter;
+}
+
+button {
+  font-family: Inter;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (prefers-color-scheme: light) {
+  
+}
