@@ -1,7 +1,7 @@
 
 export async function fetch(resource: string | Request) {
   if (resource instanceof Request) {
-    if (resource.url != "http://localhost:5173/auth") {
+    if (resource.url != `${import.meta.env.VITE_ORIGIN + import.meta.env.BASE_URL}auth`) {
       return new Response(null, {
         status: 404,
         statusText: "not found"
