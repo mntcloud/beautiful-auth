@@ -1,5 +1,5 @@
 
-export async function fetch(resource: string | Request, options?: RequestInit) {
+export async function fetch(resource: string | Request) {
   if (resource instanceof Request) {
     if (resource.url != "http://localhost:5173/auth") {
       return new Response(null, {
